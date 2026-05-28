@@ -11,6 +11,14 @@ public class PruebaTaller9 {
         trabajador.mostrarDetalles();
         
         System.out.println("-------------------------------");
+        
+        // Instanciamos un objeto de tipo Pez
+        Pez miPez = new Pez("Pez Payaso", "Salada");
+        
+        System.out.println("--- Informacion del Animal ---");
+        // Al ejecutar este metodo, llamara primero al de Animal y luego completara con el de Pez
+        miPez.mostrarEspecie();
+        System.out.println("------------------------------");
     }
     
 }
