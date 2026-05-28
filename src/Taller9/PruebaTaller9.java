@@ -8,8 +8,6 @@ public class PruebaTaller9 {
         
         System.out.println("--- Detalles del Trabajador ---");
         
-        // Al ejecutar este metodo, primero se imprimiran el nombre y la edad (gracias a super)
-        // y despues se imprimira el departamento.
         trabajador.mostrarDetalles();
         
         System.out.println("-------------------------------");
