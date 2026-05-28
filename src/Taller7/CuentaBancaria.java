@@ -1,11 +1,11 @@
 package Taller7;
 
 public class CuentaBancaria {
-    private  int numeroCuenta;
+    private  String numeroCuenta;
     public String tipoCuenta;
     private double saldo;
 
-    public CuentaBancaria(int numeroCuenta, String tipoCuenta, double saldo) {
+    public CuentaBancaria(String numeroCuenta, String tipoCuenta, double saldo) {
         this.numeroCuenta = numeroCuenta;
         this.tipoCuenta = tipoCuenta;
         this.saldo = saldo;

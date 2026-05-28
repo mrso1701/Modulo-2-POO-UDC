@@ -27,8 +27,20 @@ public class PruebasTaller7 {
         // Comprobamos que el salario no cambió y sigue siendo 1800.50
         System.out.println("Salario despues del intento fallido: $" + empleado1.getSalario());
         
-        
+        System.out.println("\n===============================================================");
         ///////////////////////////////////////////////////////////////////////////////////////
+        
+        CuentaBancaria miCuenta = new CuentaBancaria("123456789", "Ahorros", 2500.0);
+        
+        // Acceso permitido: propiedad publica
+        System.out.println("Tipo de cuenta: " + miCuenta.tipoCuenta);
+        
+        // Acceso permitido: a traves de los metodos publicos
+        System.out.println("Saldo actual: $" + miCuenta.getSaldo());
+        miCuenta.mostrarDetalles();
+        
+        // Intento de acceso directo a una propiedad privada 
+        // System.out.println("Numero: " + miCuenta.numeroCuenta);
     }
     
 }
