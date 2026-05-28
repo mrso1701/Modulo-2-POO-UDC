@@ -34,6 +34,11 @@ public class PruebaTaller11 {
         // Llama a mostrarDetalles() de Empleado, calculando el sueldo con las reglas de Vendedor
         ejecutivoVentas.mostrarDetalles();
         System.out.println("---------------------------");
+        
+        // 1. Intento de instanciar directamente
+        // Si quitas el comentario de la siguiente linea, NetBeans marcara un error
+        // Dispositivo miAparato = new Dispositivo();
+        
 
     }
     
