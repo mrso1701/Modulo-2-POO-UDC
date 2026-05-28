@@ -16,6 +16,29 @@ public class PruebaTaller10 {
         persona3.presentarse(); // Ejecuta el de Profesor
         
         System.out.println("----------------------");
+        
+        // Instanciamos los objetos de forma normal
+        Vehiculo miVehiculo = new Vehiculo();
+        Bicicleta miBicicleta = new Bicicleta();
+        
+        // Instanciamos aplicando polimorfismo (variable Vehiculo, objeto Bicicleta)
+        Vehiculo biciPolimorfica = new Bicicleta();
+        
+        System.out.println("--- Demostracion de Movimiento ---");
+        
+        // Llama al metodo de la clase Vehiculo
+        System.out.print("Vehiculo normal: ");
+        miVehiculo.moverse(); 
+        
+        // Llama al metodo sobrescrito en la clase Bicicleta
+        System.out.print("Bicicleta normal: ");
+        miBicicleta.moverse(); 
+        
+        // Llama al metodo sobrescrito gracias al polimorfismo
+        System.out.print("Bicicleta con polimorfismo: ");
+        biciPolimorfica.moverse(); 
+        
+        System.out.println("----------------------------------");
     }
     
 }
