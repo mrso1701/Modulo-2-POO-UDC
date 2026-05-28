@@ -11,10 +11,15 @@ public class PruebaTaller8 {
         // Al llamar a este metodo, se mostrara el nombre, la edad y la matricula
         estudiante1.mostrarInformacion();
         System.out.println("----------------------------");
-        //
+        
         System.out.println("======================================================");
         
+        Gerente gerente = new Gerente("Carlos Mendoza", 4500.00, "Ventas Regionales");
         
+        System.out.println("--- Ficha del Personal ---");
+        // Llamamos al metodo sobrescrito
+        gerente.mostrarDetalles();
+        System.out.println("--------------------------");
     }
     
 }
