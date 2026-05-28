@@ -19,6 +19,10 @@ public class PruebaTaller9 {
         // Al ejecutar este metodo, llamara primero al de Animal y luego completara con el de Pez
         miPez.mostrarEspecie();
         System.out.println("------------------------------");
+        
+        
+        // Intento de usar super en un contexto estatico
+        // System.out.println(super.toString());
     }
     
 }
